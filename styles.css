@@ -1,1 +1,52 @@
 /*  your css code here. If applicable */
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+header{
+    background-color: #1a2b39;
+    padding: 20px;
+    text-align: center;
+}
+header h1{
+    color: white;
+    margin: 0;
+}
+.content{
+    /* border: 10px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.news-section{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.latest-news{
+    width: 30%;
+}
+.latest-news ul{
+    padding-left: 20px;
+}
+.main-aricles{
+    width: 30%;
+    text-align: center;
+}
+.main-aricles p{
+    font-size: 16px;
+    line-height: 1.6;
+}
+.pictorial-news{
+    width: 30%;
+}
+.pictorial-news img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
